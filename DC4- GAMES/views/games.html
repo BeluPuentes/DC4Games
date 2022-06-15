@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DC4 Games</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../css/styles.css" rel="Stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <header>
+            <div class="flex">
+                <div class="logo">
+                    <a href="#"><img src="../Imagenes/LOGO.png" alt="DC4 Logo" /></a>
+                </div>
+                <nav class="navegacion">
+                    <button id="nav-toggle" class="hamburger-menu">
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                    </button>
+                    <ul id="nav-menu-container" class="menu">
+                        <div class="dropdown">
+                            <a href="../index.html" class="dropbtn"> Home </a>
+                            <div class="dropdown-content">
+                                <a href="/views/dc4.html"> DC4 </a>
+                                <a href="/views/productos.html"> Productos </a>
+                            </div>
+                        </div>
+                        <li><a href="/views/games.html">Games</a></li>
+                        <li><a href="/views/torneos.html">Torneos</a></li>
+                        <li><a href="/views/tablaDePosiciones.html">Tabla de Posiciones</a></li>
+                        <div class="dropdown">
+                            <a href="#" class="dropbtn"> Virtualizacion </a>
+                            <div class="dropdown-content">
+                                <a href="/views/sandbox.html"> SandBox </a>
+                                <a href="/views/cloudValley.html"> CloudValley </a>
+                            </div>
+                        </div>
+                    </ul>
+                </nav>
+                <a href="#" id="login-register-button">Login / Register</a>
+            </div>
+        </header>
+        <main>
+            <section id="instrucciones">
+                <div class="titulo">
+                    <h1>Games</h1>
+                </div>
+                <div class="rectangulo">
+                    <div>
+                    <h2>Instrucciones</h2>
+                        <h3>Requisitos</h3>
+                            <i><b>Tener perfil de ADMIN en tu usuario de PC:</b></i>
+                                <dd><li>Si la PC/Laptop es propia, seguro tenés permisos para instalar programas.</li>
+                                    <li>Si la PC/Laptop es de TECO, tenes que pedir el permiso de ADMIN vía CYBERARK de la siguiente manera:</li>
+                                </dd>
+                                <dd><dd><dd><dd>
+                                    <ol>
+                                        <li>Desde TUID pedir el permiso “VF Elevación de Permisos Windows Viewfinity”</li>
+                                            <ol type="a">
+                                                <li>Elegir alguno de los perfiles que aparece, todos tienen acceso</li>
+                                                <li>Debe ser aprobado por el responsable del área en TUID</li>
+                                            </ol>
+                                        <br>
+                                        <li>Desde TECOAPPS instalar el CyberArk VIEWFINITY (revisar primero porque generalmente las laptops de los ultimo 2 o 3 años ya lo tienen instalado) y reiniciar la Laptop para que tome las políticas una vez finalizado el RQ en TUID del punto (1)</li>
+                                        </ol>
+                                </dd></dd></dd></dd>
+                            <i><b>Tener Steam Instalado y luego bajar el juego desde ahi:</b></i> 
+                                <dd><li>Desde la web https://store.steampowered.com/ bajarse el steam desde “Instalar Steam” e instalarlo</li></dd>
+                                <img class="centrarAchicar" src="../Imagenes/steam1.png" alt="">    
+                                <dd><li>Generar un usuario y contraseña se puede hacer una vez concluida la instalación del Steam en el mismo proceso</li>
+                                    <li>Una vez instalado el steam y que estemos logueados, buscamos el juego: “Call Of Duty Warchest”</li>
+                                </dd> 
+                                <img class="centrarAchicar" src="../Imagenes/steam2.png" alt="">
+                                <img class="centrarAchicar" src="../Imagenes/steam3.png" alt="">
+                                <dd><li>Adquirirlo y seguir las instrucciones para instalarlo:</li>
+                                    <ul><ul>
+                                        
+                                        <li>Este pack instala el Call of Duty 1, el Call of Duty United Offensive y el Call Of Duty 2</li>
+                                        <li>El Call of Duty United Offensive (que es el que jugamos) es una expansión del Call of Duty 1 por ende ambos son 
+                                            necesarios; el Call Of Duty 2 viene extra.</li>
+                                    
+
+                                    </ul></ul>
+                                </dd>
+                    </div>
+
+              </div>
+                
+            </section>
+           <section id="conexion">
+            <img class="derecha"src="../Imagenes/pers.png" alt="">
+            <div class="rectanguloCentro">
+                        <h3>COMO CONECTARSE:</h3> 
+                            <dd><h2>CONFIGURACIÓN Y EJECUCIÓN DEL COD</h2></dd>
+                                <dd>
+                                    <ol>
+                                        <li>Ejecutar el juego desde Steam, cuando nos de la opción, seleccionamos la que dice Multijugador</li>
+                                        <li>Dentro del juego, ir a Options, y del lado izquierdo al menu que dice Performance, ahi poner en NO la opción que dice “SYNC EVERY FRAME” (excepto que usen un monitor con tasa de refresco de 100Hz o mas)</li>
+                                        <li>Desde el menú principal ir a Multiplayer Options:</li>
+                                            <ol type="a">
+                                                <li>Ponerse el nombre debajo</li>
+                                                <li>Dejar en YES la opción Allow Downloads</li>
+                                            </ol>
+                                        <li>Desde el menú principal ir a Join Game</li>
+                                            <ul>
+                                                Arriba donde dice Source, clicker para seleccionar Favorites
+                                                Luego click en New Favorite; en la ventana que aparece poner de nombre 3 letras al azar y en IP poner: 181.30.140.20:28960 <b>(IMPORTANTE: NO USAR TECLADO NUMÉRICO, SIEMPRE LAS TECLAS DE LOS NÚMEROS ARRIBA DE LAS LETRAS)</b>
+                                                Luego click en Filter Servers; en el listado de filtros dejar en NO las opciones Only Pure y Only Dedicated
+                                            </ul>
+                                        <li>Click abajo de todo en contraseña y poner la clave del servidor y click en ok</li>
+                                        <li>Click en Refresh arriba y debería aparecer en el listado el servidor; doble click en el mismo para unirse. </li>
+                                    </ol>
+                                </dd>
+                    </div>
+            </section>
+
+                               
+            
+            
+
+        </main>
+
+        <footer>
+            <div class="flex">
+                <small>Copyright &copy; 2019 All rights reserved | This template is made with <span class="footer-heart">&#9829;</span> by Colorlib.</small>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Games</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Forums</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <script>
+            document.getElementById('nav-toggle').addEventListener('click', function () {
+                let navMenu = document.getElementById('nav-menu-container');
+                navMenu.style.display = navMenu.offsetParent === null ? 'block' : 'none';
+            });
+        </script>
+    </body>
+</html>
